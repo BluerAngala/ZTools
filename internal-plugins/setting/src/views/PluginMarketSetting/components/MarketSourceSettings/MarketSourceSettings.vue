@@ -26,7 +26,10 @@ const token = ref('')
 const isSaving = ref(false)
 
 /** 预设的 GitHub 仓库 */
-const GITHUB_PRESETS = [{ label: 'ZToolsCenter 官方插件库', value: 'ZToolsCenter/ZTools-plugins' }]
+const GITHUB_PRESETS = [
+  { label: 'cc-ai-tools 官方插件库', value: 'BluerAngala/cc-ai-tools-plugins' },
+  { label: 'ZTools 官方插件库', value: 'ZToolsCenter/ZTools-plugins' }
+]
 
 /**
  * 从主进程加载当前市场源配置。
