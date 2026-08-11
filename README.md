@@ -9,6 +9,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/BluerAngala/cc-ai-tools)](https://github.com/BluerAngala/cc-ai-tools/releases)
 [![License](https://img.shields.io/github/license/BluerAngala/cc-ai-tools)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://github.com/BluerAngala/cc-ai-tools)
+[![Docs](https://img.shields.io/badge/docs-online-059669)](https://bluerangala.github.io/cc-ai-tools/)
 
 [English](./README_EN.md) | 简体中文
 
