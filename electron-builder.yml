@@ -20,8 +20,6 @@ files:
   - '!docs/**'
   - '!tests/**'
   - '!updater/**'
-  - '!ztools-api-types/**'
-  - '!ztools-plugin-cli/**'
   - '!scripts/**'
   - '!internal-plugins/**'
   - '!**/*.map'

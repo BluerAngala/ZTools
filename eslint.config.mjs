@@ -6,15 +6,7 @@ import vueParser from 'vue-eslint-parser'
 
 export default defineConfig(
   {
-    ignores: [
-      '**/node_modules',
-      '**/dist',
-      '**/out',
-      'build/**',
-      'resources/**',
-      'ztools-api-types/**',
-      'ztools-plugin-cli/templates/**'
-    ]
+    ignores: ['**/node_modules', '**/dist', '**/out', 'build/**', 'resources/**']
   },
   tseslint.configs.recommended,
   eslintPluginVue.configs['flat/recommended'],
