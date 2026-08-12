@@ -1,16 +1,16 @@
 {
-  "name": "ZTools",
+  "name": "cc-ai-tools",
   "version": "3.1.0",
-  "description": "ZTools",
+  "description": "cc-ai-tools — 高性能应用启动器和插件平台",
   "main": "./out/main/index.js",
-  "author": "ZToolsCenter",
-  "homepage": "https://github.com/ZToolsCenter/ZTools",
+  "author": "BluerAngala",
+  "homepage": "https://github.com/BluerAngala/cc-ai-tools",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZToolsCenter/ZTools.git"
+    "url": "https://github.com/BluerAngala/cc-ai-tools.git"
   },
   "bugs": {
-    "url": "https://github.com/ZToolsCenter/ZTools/issues"
+    "url": "https://github.com/BluerAngala/cc-ai-tools/issues"
   },
   "license": "MIT",
   "scripts": {

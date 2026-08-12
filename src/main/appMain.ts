@@ -24,7 +24,7 @@ import mcpServer from './core/mcpServer'
 import { registerIconProtocolForSession, registerIconScheme } from './core/iconProtocol'
 import { getLogsPath } from './core/appData/appDataPaths'
 import { loadInternalPlugins } from './core/internalPluginLoader'
-import { isOnboarded, saveProfile } from './core/userPreferences/userProfile'
+import { saveProfile } from './core/userPreferences/userProfile'
 import pluginManager from './managers/pluginManager'
 import windowManager from './managers/windowManager'
 
@@ -187,9 +187,8 @@ app.whenReady().then(async () => {
   // 初始化悬浮球（从配置决定是否显示）
   if (!isE2ETest) await floatingBallManager.init()
 
-  // 首次启动（未完成画像引导）时显示主窗口，让渲染层展示引导向导；
-  // 不再自动打开设置面板，避免把用户直接丢进"设置"大杂烩。
-  if (!isE2ETest && !isOnboarded()) {
+  // 启动时显示主窗口（首次启动展示引导向导，后续展示搜索/市场）
+  if (!isE2ETest) {
     if (mainWindow && !mainWindow.isDestroyed()) {
       mainWindow.once('ready-to-show', () => windowManager.showWindow())
     }

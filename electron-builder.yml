@@ -1,9 +1,9 @@
-appId: top.z-tools
-productName: ZTools
+appId: com.bluerangala.cc-ai-tools
+productName: cc-ai-tools
 publish:
   provider: github
-  owner: ZToolsCenter
-  repo: ZTools
+  owner: BluerAngala
+  repo: cc-ai-tools
 directories:
   buildResources: build
 files:
