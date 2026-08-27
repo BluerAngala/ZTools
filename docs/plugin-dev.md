@@ -168,7 +168,7 @@ window.ztools.createBrowserWindow({
 
 ### 3. 上架市场
 
-将插件目录提交到 [cc-ai-tools-plugins](https://github.com/BluerAngala/cc-ai-tools-plugins) 仓库：
+将插件目录提交到 [cc-ai-tools-plugins](https://github.com/lawyerch-dev/cc-ai-tools-plugins) 仓库：
 
 ```
 plugins/
@@ -183,4 +183,4 @@ plugins/
 
 ## 示例
 
-参考 [hello-world](https://github.com/BluerAngala/cc-ai-tools-plugins/tree/main/plugins/hello-world) 示例插件。
+参考 [hello-world](https://github.com/lawyerch-dev/cc-ai-tools-plugins/tree/main/plugins/hello-world) 示例插件。

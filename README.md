@@ -6,9 +6,9 @@
 
 **高性能、可扩展的应用启动器和插件平台**
 
-[![GitHub release](https://img.shields.io/github/v/release/BluerAngala/cc-ai-tools)](https://github.com/BluerAngala/cc-ai-tools/releases)
-[![License](https://img.shields.io/github/license/BluerAngala/cc-ai-tools)](./LICENSE)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://github.com/BluerAngala/cc-ai-tools)
+[![GitHub release](https://img.shields.io/github/v/release/lawyerch-dev/cc-ai-tools)](https://github.com/lawyerch-dev/cc-ai-tools/releases)
+[![License](https://img.shields.io/github/license/lawyerch-dev/cc-ai-tools)](./LICENSE)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://github.com/lawyerch-dev/cc-ai-tools)
 [![Docs](https://img.shields.io/badge/docs-online-059669)](https://bluerangala.github.io/cc-ai-tools/)
 
 [English](./README_EN.md) | 简体中文
@@ -43,15 +43,15 @@
 
 ### 本项目插件仓库
 
-👉 **[BluerAngala/cc-ai-tools-plugins](https://github.com/BluerAngala/cc-ai-tools-plugins)**
+👉 **[lawyerch-dev/cc-ai-tools-plugins](https://github.com/lawyerch-dev/cc-ai-tools-plugins)**
 
-在设置中选择 **GitHub 仓库**，填入 `BluerAngala/cc-ai-tools-plugins`，或选择预设即可。
+在设置中选择 **GitHub 仓库**，填入 `lawyerch-dev/cc-ai-tools-plugins`，或选择预设即可。
 
 新增插件：往 `plugins/` 目录加一个含 `plugin.json` 的子目录，推送后市场自动识别。
 
 ## 🚀 安装
 
-从 [Releases](https://github.com/BluerAngala/cc-ai-tools/releases) 下载：
+从 [Releases](https://github.com/lawyerch-dev/cc-ai-tools/releases) 下载：
 
 - **macOS**: `.dmg` 或 `-arm64-mac.zip`
 - **Windows**: `-setup.exe` 或 `-win.zip`
@@ -59,7 +59,7 @@
 ### 从源码构建
 
 ```bash
-git clone https://github.com/BluerAngala/cc-ai-tools.git
+git clone https://github.com/lawyerch-dev/cc-ai-tools.git
 cd cc-ai-tools
 pnpm install
 pnpm dev

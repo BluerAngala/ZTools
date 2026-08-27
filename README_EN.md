@@ -6,9 +6,9 @@
 
 **High-performance, extensible application launcher and plugin platform**
 
-[![GitHub release](https://img.shields.io/github/v/release/BluerAngala/cc-ai-tools)](https://github.com/BluerAngala/cc-ai-tools/releases)
-[![License](https://img.shields.io/github/license/BluerAngala/cc-ai-tools)](./LICENSE)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://github.com/BluerAngala/cc-ai-tools)
+[![GitHub release](https://img.shields.io/github/v/release/lawyerch-dev/cc-ai-tools)](https://github.com/lawyerch-dev/cc-ai-tools/releases)
+[![License](https://img.shields.io/github/license/lawyerch-dev/cc-ai-tools)](./LICENSE)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://github.com/lawyerch-dev/cc-ai-tools)
 
 English | [简体中文](./README.md)
 
@@ -42,13 +42,13 @@ Three plugin sources, configurable in **Settings → Plugin Market → ⚙️**:
 
 ### Plugin Repository
 
-👉 **[BluerAngala/cc-ai-tools-plugins](https://github.com/BluerAngala/cc-ai-tools-plugins)**
+👉 **[lawyerch-dev/cc-ai-tools-plugins](https://github.com/lawyerch-dev/cc-ai-tools-plugins)**
 
-Select **GitHub** in settings, enter `BluerAngala/cc-ai-tools-plugins`, or use the preset.
+Select **GitHub** in settings, enter `lawyerch-dev/cc-ai-tools-plugins`, or use the preset.
 
 ## 🚀 Install
 
-Download from [Releases](https://github.com/BluerAngala/cc-ai-tools/releases):
+Download from [Releases](https://github.com/lawyerch-dev/cc-ai-tools/releases):
 
 - **macOS**: `.dmg` or `-arm64-mac.zip`
 - **Windows**: `-setup.exe` or `-win.zip`
@@ -56,7 +56,7 @@ Download from [Releases](https://github.com/BluerAngala/cc-ai-tools/releases):
 ### Build from Source
 
 ```bash
-git clone https://github.com/BluerAngala/cc-ai-tools.git
+git clone https://github.com/lawyerch-dev/cc-ai-tools.git
 cd cc-ai-tools
 pnpm install
 pnpm dev
