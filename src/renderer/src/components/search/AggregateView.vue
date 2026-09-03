@@ -30,6 +30,9 @@
         @update:apps="$emit('update:pinned-order', $event)"
         @update:expanded="$emit('update:pinned-expanded', $event)"
       />
+
+      <!-- 快捷操作提示 -->
+      <WelcomeTips />
     </div>
     <!-- 有搜索时：搜索结果 -->
     <div v-if="hasSearchContent" class="search-results">
@@ -115,6 +118,7 @@ import { computed } from 'vue'
 import type { MainPushGroup, MainPushItem } from '../../composables/useMainPushResults'
 import CollapsibleList from '../common/CollapsibleList.vue'
 import MainPushList from '../common/MainPushList.vue'
+import WelcomeTips from '../common/WelcomeTips.vue'
 
 interface Props {
   searchQuery: string

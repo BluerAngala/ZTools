@@ -3,14 +3,14 @@
   "version": "3.1.0",
   "description": "cc-ai-tools — 高性能应用启动器和插件平台",
   "main": "./out/main/index.js",
-  "author": "BluerAngala",
-  "homepage": "https://github.com/BluerAngala/cc-ai-tools",
+  "author": "lawyerch-dev",
+  "homepage": "https://github.com/lawyerch-dev/cc-ai-tools",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BluerAngala/cc-ai-tools.git"
+    "url": "https://github.com/lawyerch-dev/cc-ai-tools.git"
   },
   "bugs": {
-    "url": "https://github.com/BluerAngala/cc-ai-tools/issues"
+    "url": "https://github.com/lawyerch-dev/cc-ai-tools/issues"
   },
   "license": "MIT",
   "scripts": {

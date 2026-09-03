@@ -2,7 +2,7 @@ appId: com.bluerangala.cc-ai-tools
 productName: cc-ai-tools
 publish:
   provider: github
-  owner: BluerAngala
+  owner: lawyerch-dev
   repo: cc-ai-tools
 directories:
   buildResources: build

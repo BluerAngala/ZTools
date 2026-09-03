@@ -27,7 +27,7 @@ const isSaving = ref(false)
 
 /** 预设的 GitHub 仓库 */
 const GITHUB_PRESETS = [
-  { label: 'cc-ai-tools 官方插件库', value: 'BluerAngala/cc-ai-tools-plugins' },
+  { label: 'cc-ai-tools 官方插件库', value: 'lawyerch-dev/cc-ai-tools-plugins' },
   { label: 'ZTools 官方插件库', value: 'ZToolsCenter/ZTools-plugins' }
 ]
 

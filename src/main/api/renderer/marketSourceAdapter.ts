@@ -80,7 +80,7 @@ export const DEFAULT_MARKET_SOURCE: MarketSourceConfig = {
 export const MARKET_SOURCE_DB_KEY = 'plugin-market-source'
 
 /** 默认的 GitHub 插件仓库 */
-export const DEFAULT_GITHUB_REPO = 'BluerAngala/cc-ai-tools-plugins'
+export const DEFAULT_GITHUB_REPO = 'lawyerch-dev/cc-ai-tools-plugins'
 export const DEFAULT_GITHUB_BRANCH = 'main'
 export const DEFAULT_GITHUB_PLUGINS_DIR = 'plugins'
 
